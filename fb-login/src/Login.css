@@ -1,42 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  background: #f2f4f7;
+
+.logo {
+    color: #1877f2;
+    font-weight: bolder;
+    margin-top: 20%;
 }
 
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.flex-div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.name-content {
-  margin-right: 7rem;
-}
-
-.name-content .logo {
-  font-size: 3.5rem;
-  color: #1877f2;
-}
-
-.name-content p {
-  font-size: 1.3rem;
+p {
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 5rem;
 }
 
 form {
@@ -107,7 +86,7 @@ form .create-account:hover {
 }
 
 /* //.........Media Query.........// */
-
+/* 
 @media (max-width: 500px) {
   html {
     font-size: 60%;
@@ -226,4 +205,4 @@ form .create-account:hover {
       height: 90vmax;
     }
   }  
-}
+} */
